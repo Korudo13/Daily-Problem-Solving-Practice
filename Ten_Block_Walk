@@ -14,6 +14,8 @@ The city provides its citizens with a Walk Generating App on their phones
 
  Note: you will always receive a valid array containing a random assortment of direction letters ('n', 's', 'e', or 'w' only).
  It will never give you an empty array (that's not a walk, that's standing still!).
+ 
+ ================================================================================================================================
 
      * 1 block = 1 minute
      * 10 blocks = 10 minutes
