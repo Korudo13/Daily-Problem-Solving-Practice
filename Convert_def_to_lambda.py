@@ -1,4 +1,4 @@
-# Convert a def statement into a lambda expression
+# Convert a def statement into a Lambda Expression (to better understand how Lambda Expressions work)
 
 '''
 * Lambda Expressions are a means to create anonymous functions (resusable code on-the-fly)
