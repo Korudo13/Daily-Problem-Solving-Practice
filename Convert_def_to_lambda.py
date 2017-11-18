@@ -3,6 +3,7 @@
 '''
 * Lambda Expressions are a means to create anonymous functions (resusable code on-the-fly)
 * Single-line expression, eliminates nesting
+* Useful for simple tasks, not complex functions
 '''
 
 #original def statement
