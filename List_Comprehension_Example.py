@@ -19,7 +19,7 @@ print lst
 
 
 '''
-# List Comprenesion Example 1
+# List Comprehension Example 1
 
 lst = [x**2 for x in range(0,11)]
 
@@ -75,4 +75,14 @@ for temperature in fahrenheit:
     celsius.append((temperature - 32) * 5 / 9)
 
 print celsius
+
+'''
+# For Loop Example 3
+
+'''
+
+# Converstion 5
+
+lst = [x**2 for x in [x**2 for x in range(11)]]
+print lst
 
