@@ -49,7 +49,30 @@ for number in range(11):
 print lst
 '''
 
-# Conversion 2
+# Conversion 3
 
 lst = [number for number in range(11) if number %2 == 0]
 print lst
+
+
+
+'''
+# List Comprenension Example 2
+
+fahrenheit = [100.0, 87.0, 65.0, 32.0, 0, -20.0]
+
+celsius  = [(temperature - 32) * 5 / 9 for temperature in fahrenheit]
+
+print celsius
+'''
+
+# Conversion 4
+
+fahrenheit = [100.0, 87.0, 65.0, 32.0, 0, -20.0]
+celsius = []
+
+for temperature in fahrenheit:
+    celsius.append((temperature - 32) * 5 / 9)
+
+print celsius
+
