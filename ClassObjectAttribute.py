@@ -1,10 +1,11 @@
-# Make an example of a class attribute, and methods in a class in Python
+# Create an example Class with a Class Object Attribute, and Methods within that Class in Python
 
 class Dog(object):
 
     # Class Object Attribute
     species = 'mammal'
 
+    # Initializing attributes 
     def __init__(self, breed):
         self.breed = breed
 
