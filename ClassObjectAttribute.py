@@ -5,14 +5,14 @@ class Dog(object):
     # Class Object Attribute
     species = 'mammal'
 
-    # Initializing attributes 
-    def __init__(self, breed):
+    # Initializing Attributes
+    def __init__(self, breed, name, temperment):
         self.breed = breed
+        self.name = name
+        self.temperment = temperment
 
-sam = Dog(breed = 'Labrador')
-geoffrey = Dog(breed = 'Huskie')
+dexter = Dog(breed = 'labrador', name = 'Dexter', temperment = 'silly')
+balto = Dog(breed = 'huskie', name = 'Balto', temperment = 'chill')
 
-print sam.breed
-print geoffrey.breed
-
-print sam.species, geoffrey.species
+print dexter.name, dexter.species, dexter.breed, dexter.temperment
+print balto.name, balto.species, balto.breed, balto.temperment
