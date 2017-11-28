@@ -8,13 +8,16 @@ class Meal(object):
     def timeOfDay(self):
         print 'Any time of day'
 
+        
 class Breakfast(Meal):
+    
     def __init__(self):
         Meal.__init__(self)
         print 'This is breakfast'
 
     def timeOfDay(self):
         print 'Morning'
+        
 
 class Lunch(Meal):
 
@@ -26,6 +29,7 @@ class Lunch(Meal):
         print 'Afternoon'
 
 
+        
 class Dinner(Meal):
     def __init__(self):
         Meal.__init__(self)
